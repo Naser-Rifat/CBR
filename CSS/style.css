@@ -1,0 +1,76 @@
+
+/* fonts poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+/* ----------------custom-css-part-------------- */
+
+/* ---------------
+    common-part
+   --------------- */
+
+/* background-honda-cbr-banner */
+.bg-hc-bn{  
+    background-color: #264653;
+    
+}
+
+/* font-size-honda-cbr-small */
+.fsize-hc-sm{
+  font-size: 14px;
+}
+
+/* font-color-honda-cbr-banner */
+.fcolor-hc-bn{
+    color: #E0E0E0;
+}
+
+.bg-color-orange{
+    background-color: #E76F51;
+}
+.text-color-orange{
+    color: #E76F51;
+}
+
+.gray-scal{
+    filter: grayscale(100%);
+    /* -webkit-filter: grayscale(1); */
+
+
+}
+
+
+
+/* ------------------------------ */
+
+/* -----------
+    body-part
+   ---------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+
+}
+
+/* -----------
+    Client-part
+   ---------- */
+
+.user-img{
+    width: 100%; 
+    height:121px; 
+    object-fit: cover;
+}
+
+
+/* -----------
+    Subscribe-part
+   ---------- */
+
+.bg-sub-color{
+    background-color: #264653c4;
+}
+

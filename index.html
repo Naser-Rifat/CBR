@@ -20,11 +20,56 @@
 <body>
 
     <!-- header-part-start -->
-    <header>
+    <header class="bg-hc-bn">
+        <!-- navigation-section -->
+
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light  ">
+                <div class="container mx-5 d-flex justify-content-lg-between pt-2">
+                    <a class="navbar-brand " href="#">
+
+                    </a>
+                    <!-- rigt-side -->
+                    <div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white " aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#shop ">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#news">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#contact">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#fqa">FQA</a>
+                                </li>
+
+                                <div class="ms-5 ">
+                                    <button class="btn bg-color-orange text-white px-4 " type="submit">login</button>
+                                </div>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </section>
 
         <!-- banner-section -->
-        <section class=" p-5 bg-hc-bn">
-            <div class="row container d-flex justify-content-between align-items-center m-4 g-3">
+        <section class=" p-5 ">
+            <div class="row container d-flex justify-content-between align-items-center m-4 g-3 m-auto">
                 <div class="col-lg-6 ">
                     <p class="mb-1 fcolor-hc-bn fw-light fsize-hc-sm ">Computer-controlled digital transistorized with
                         electronic
@@ -51,13 +96,13 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Honda-CBR</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">Want to Purchase?</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
                                         <h5>CBR300R</h5>
-                                        <p class=" mb-1">MSRP: $4,699</p> <br>
+                                        <p class=" mb-1">MSRP: <span class="fw-bold"> $4,699</span></p> <br>
                                         <p>-Standard Features</p>
                                         <p>-286cc liquid-cooled single-cylinder engine</p>
                                         <p>-Low seat height</p>
@@ -66,8 +111,8 @@
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Login</button>
+                                            data-bs-dismiss="modal">Exit</button>
+                                        <button type="button" class="btn btn-primary">Continue</button>
                                     </div>
                                 </div>
                             </div>
@@ -97,10 +142,11 @@
     <!-- main-part-start -->
     <main>
         <!-- bike-img-section -->
-        <section class="container p-4 m-4 m-auto">
+        <section class="container p-4 m-4 m-auto" id="shop">
             <div class="text-center my-5 ">
                 <h1 class="fw-bolder ">Fetured Bikes 2021</h1>
                 <h6 class="fw-bolder text-color-orange">Best bike collection</h6>
+
             </div>
             <div class="row   align-items-center  g-5 p-4 m-4 m-auto">
 
@@ -129,9 +175,68 @@
 
         </section>
 
+        <!-- news-section -->
+        <section class="container my-3 p-5" id="news">
+
+            <h1 class="text-center fw-bolder my-5 text-capitalize">latest News </h1>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+                <!-- bike-news-1 -->
+                <div class="col">
+                    <div class="card h-100 p-3 rounded-3">
+                        <img src="images/bike-1.png" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                            <h5 class="card-title fw-bold">Ducati XDIAVEL S-73</h5>
+                            <article class="card-text">Ducati renews the XDiavel range by introducing two new versions
+                                for 2021: the XDiavel Dark and the XDiavel Black Star.
+
+                                XDiavel, the Ducati cruiser that combines the best of both worlds, is renewed, still
+                                remaining true to its philosophy. ...</article>
+                        </div>
+                        <div>
+                            <button class="btn bg-color-orange text-white">Read more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- bike-news-2 -->
+                <div class="col">
+                    <div class="card h-100 p-3 rounded-3">
+                        <img src="images/bike-2.png" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                            <h5 class="card-title fw-bold">Motorcycles & Scooters</h5>
+                            <article class="card-text">Buy Motorcycles & Scooters and get the best deals at the lowest
+                                prices on eBay! Great Savings & Free Delivery / Collection on many items.r...</article>
+                        </div>
+                        <div>
+                            <button class="btn text-color-orange border-color-orange ">Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- bike-news-3 -->
+                <div class="col">
+                    <div class="card h-100 p-3 rounded-3">
+                        <img src="images/bike-3.png" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                            <h5 class="card-title fw-bold">2021 Honda CBR500R</h5>
+                            <article class="card-text">Is it any wonder why the Honda CBR500R is one of our most popular
+                                sportbikes? It just gets so many things right. Price. Power. Weight. Handling. Its
+                                twin-cylinder engine revs freely and produces plenty of torque.</article>
+                        </div>
+                        <div>
+                            <button class="btn text-color-orange border-color-orange ">Read more</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
 
         <!-- client-section -->
-        <section class="container my-5 py-5">
+        <section class="container my-3 py-5 mx-auto">
 
             <h1 class="text-center fw-bolder mt-3">Happy <span class="text-color-orange">Clients says</span> </h1>
 
@@ -158,8 +263,8 @@
                             <i class="far text-color-orange fa-star"></i>
                         </div>
                         <div class="text-center my-3">
-                            <h6 class="mb-4 fw-bold text-info"> Regina Miles </h6>
-                            <h6 class="fw-bold">Banker</h6>
+                            <h6 class="mb-4 fw-bold text-info"> William </h6>
+                            <h6 class="fw-bold">Engineer</h6>
                         </div>
                     </div>
                 </div>
@@ -184,8 +289,8 @@
                             <i class="far text-color-orange fa-star"></i>
                         </div>
                         <div class="text-center my-3">
-                            <h6 class="mb-4 fw-bold text-info"> Regina Miles </h6>
-                            <h6 class="fw-bold">Banker</h6>
+                            <h6 class="mb-4 fw-bold text-info"> Michael </h6>
+                            <h6 class="fw-bold">Teacher</h6>
                         </div>
                     </div>
                 </div>
@@ -213,7 +318,7 @@
                         </div>
                         <div class="text-center my-3">
                             <h6 class="mb-4 fw-bold text-info"> Regina Miles </h6>
-                            <h6 class="fw-bold">Banker</h6>
+                            <h6 class="fw-bold">Fashion Designer</h6>
                         </div>
                     </div>
                 </div>
@@ -228,9 +333,9 @@
 
 
         <!-- F-Q-A part -->
-        <section class="container  my-5 m-auto">
+        <section class="container py-5 mb-5 m-auto" id="fqa">
 
-            <h1 class="text-center fw-bolder my-5 p-5">Frequently Asked <span class="text-color-orange">
+            <h1 class="text-center fw-bolder my-2 p-5">Frequently Asked <span class="text-color-orange">
                     Questions</span>
             </h1>
 
@@ -349,9 +454,9 @@
                 <div class="col-12">
                     <h1 class="fw-bold text-white">LET'S STAY IN TOUCH
                     </h1>
-                    <p class="text-white">Get the latest update put you Email</p>
-                    <input class="form-control border-2 rounded-3 mb-1" type="text">
-                    <button class="btn bg-color-orange " type="submit">Submit</button>
+                    <p class="text-white">Get more latest update put you email.</p>
+                    <input class="form-control border-2 rounded-3 mb-1" type="text" placeholder="Email">
+                    <button class="btn bg-color-orange text-white  " type="submit">Submit</button>
                 </div>
             </div>
 
@@ -370,9 +475,51 @@
     <!-- fotter-part-start -->
     <footer>
 
-        <section>
+        <section class=" pt-5 mt-5 mb-3">
+
+            <div class="d-flex justify-content-center">
+
+                <div class="text-center">
+                    <img class="w-75" src="images/logo.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="d-flex justify-content-center " id="contact">
+                <a href="# "><i class="fab fs-3 text-color-orange  fa-facebook px-2"></i></a>
+                <a href="# "><i class="fab fs-3 text-color-orange fa-twitter px-2"></i></a>
+                <a href="# "><i class="fab fs-3 text-color-orange fa-instagram px-2"></i></a>
+            </div>
 
         </section>
+
+        <!-- footer -->
+        <section class="bg-dark ">
+
+            <div class="row container p-5 mx-auto">
+                <div class=" ">
+                    <a href="" class="text-white fsize-hc-sm text-decoration-none me-3">Download Now</a>
+                    <a href="" class="text-white fsize-hc-sm text-decoration-none">License</a>
+
+                </div>
+
+                <div class="pt-2 pb-4">
+                    <a href="" class="text-white fsize-hc-sm text-decoration-none me-3">About</a>
+                    <a href="" class="text-white fsize-hc-sm text-decoration-none me-3">Feature</a>
+                    <a href="" class="text-white fsize-hc-sm text-decoration-none me-3">Pricing</a>
+                    <a href="" class="text-white fsize-hc-sm text-decoration-none me-3">License</a>
+                    <a href="" class="text-white fsize-hc-sm text-decoration-none me-3">careers</a>
+                    <a href="" class="text-white fsize-hc-sm text-decoration-none me-3">Help</a>
+                    <a href="" class="text-white fsize-hc-sm text-decoration-none me-3">Privacy</a>
+
+
+                </div>
+                <p class="text-muted m-0"> &copy; 2021 All Right Reserved</p>
+            </div>
+
+        </section>
+
+
 
     </footer>
     <!-- fotter-part-end -->
